@@ -1,0 +1,286 @@
+(footprint "25139NAH"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "25139NAH")
+	(tags "Switch")
+	(property "Reference" "REF**"
+		(at -0.34257 -0.03198 0)
+		(layer "F.SilkS")
+		(uuid "62f43757-6186-431b-bb0b-59bd90796430")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "25139NAH"
+		(at -0.34257 -0.03198 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "09aec699-46e2-4063-9ef5-76120fe123ad")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "http://uk.rs-online.com/web/p/products/1191056"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6c653928-b71d-4a69-a5e4-145a8b32e33d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "SPDT top actuated PCB switch,centre off PCB Slide Switch SPDT On-Off-On 4 A@ 125 V ac Slide"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a304351f-f929-4e34-84a7-c2176a2b83a2")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Height" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3dc8e982-403c-4d84-bace-4cbff74807a6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "642-25139NAH"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3d19f45e-8129-441e-b40e-f2f944a05434")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Apem/25139NAH?qs=VdTcGPmBZ7A9mr%252B1nkhQCQ%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9e5489c4-18bd-4943-ac33-0bd2ed00d109")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Apem"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4e1b80ef-07c4-4ef7-9fce-f5e570b15247")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "25139NAH"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "94dcbb10-e8b0-46d7-bc9d-5aa79b664a2a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Part Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b6472a55-f062-4cdf-872b-1519607b8afc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Price/Stock" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3112bf80-fb05-4416-a661-4e6d117e2fc9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/ALIMENTATION/")
+	(sheetfile "AEROSAT-2-POWER.kicad_sch")
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -3.75 -7.05)
+		(end 3.75 -7.05)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d0537c4d-437a-407b-867a-ae1b47348260")
+	)
+	(fp_line
+		(start -3.75 7.05)
+		(end -3.75 -7.05)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1fc800e1-7c7e-4975-aace-ba7bb52c4111")
+	)
+	(fp_line
+		(start 3.75 -7.05)
+		(end 3.75 7.05)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7f950a21-5849-4b7c-94c9-cdfa7760cbe1")
+	)
+	(fp_line
+		(start 3.75 7.05)
+		(end -3.75 7.05)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9a2f4d5e-6a37-4210-a098-b49d647659c3")
+	)
+	(fp_circle
+		(center 5.021 2.71)
+		(end 5.021 2.799)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "d6fc65c0-1e19-4737-be1d-f0862a828464")
+	)
+	(fp_line
+		(start -3.75 -7.05)
+		(end 3.75 -7.05)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f09fe08b-fb8f-4285-817f-6168336f099b")
+	)
+	(fp_line
+		(start -3.75 7.05)
+		(end -3.75 -7.05)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "791bd7f2-bb36-4c16-889b-b1ff868e13d7")
+	)
+	(fp_line
+		(start 3.75 -7.05)
+		(end 3.75 7.05)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2e244dff-404f-42a7-b427-6b48d1bb971e")
+	)
+	(fp_line
+		(start 3.75 7.05)
+		(end -3.75 7.05)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "651e2c4b-3c50-424a-b351-6a5f1c3267af")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.34257 -0.03198 0)
+		(layer "F.Fab")
+		(uuid "fb158c73-4fe4-4edf-9d02-3005bcd582e0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 2.54)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f9088dd8-9360-42eb-95e7-f2fb36f5d05e")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8240fa7d-2819-46cc-87f8-15b977976598")
+	)
+	(pad "3" thru_hole circle
+		(at 0 -2.54)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c7613bff-cf0a-4ce1-a4ba-05c0155e6af0")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_3RD_PARTY}/Imported Libraries.3dshapes/25139NAH.stp"
+		(offset
+			(xyz -3.71 7.08 5.31)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 90)
+		)
+	)
+)

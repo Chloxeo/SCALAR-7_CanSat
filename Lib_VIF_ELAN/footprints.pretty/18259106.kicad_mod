@@ -1,0 +1,353 @@
+(footprint "18259106"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "1825910-6-2")
+	(tags "Switch")
+	(property "Reference" "REF**"
+		(at 3.25 2.25 0)
+		(layer "F.SilkS")
+		(uuid "e6606c06-ee1f-4949-a110-7d08f52f59a8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "1825910-6"
+		(at 3.25 2.25 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "7f0d6352-41a9-4be6-9e9a-b5903e63ac7e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1308111-1_SWITCHES_CORE_PROGRAM_CATALOG&DocType=Catalog%20Section&DocLang=English&PartCntxt=1825910-6&DocFormat=pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b1ff547b-83af-4832-b00e-f91cafd060e6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Body Features: Product Orientation Vertical | Case Material Nylon | Actuator Force 5.64 OZ | Cover Material PET Film | Actuator Force 160 G | Actuator Color Black | Actuator Material PBT | Actuator Profile Extended | Case Color Black | Configuration Features: Operating Function NO | Ganged With | Support Bracket Without | Switch Feedback Type Tactile | Configuration (Pole-Throw) Single Pole - Single Throw | Number of Actuators Single | ESD Grounding Terminal Without | Contact Features: Contact Base Material"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a7e76aff-dc9e-434b-b4cb-02b2135a6f8f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Height" "5.3"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f4a936ea-8b33-49da-8331-8707b3ea53d0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "TE Connectivity"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "966c6631-fbba-430e-9cfe-45646997874f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "1825910-6"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "12f488b5-e263-4798-b60a-2adeaa8ff0b5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "650-1825910-6"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "07b4208b-4b49-4e33-93e8-ae605b0d24f6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/1825910-6?qs=A6cQTCBcXncisYDS1KbpGA%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "25fd797a-b9c0-4d73-8385-6e60bc8c2b50")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Part Number" "1825910-6"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "73158db6-3d44-4cfb-a59a-e0699ccb5a60")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Price/Stock" "https://www.arrow.com/en/products/1825910-6/te-connectivity?utm_currency=USD&region=europe"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dec4156c-6abe-44ec-aa25-43ccdb237ddd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/MCU/")
+	(sheetfile "AEROSAT-2-MCU.kicad_sch")
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start 0.25 1.25)
+		(end 0.25 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "072e15c3-497d-4249-8c44-6847fe62b028")
+	)
+	(fp_line
+		(start 0.25 1.25)
+		(end 0.255 3.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c7159445-5ec7-4b11-a33c-1da951e3fc20")
+	)
+	(fp_line
+		(start 0.255 3.25)
+		(end 0.255 3.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c2add420-136c-48a7-b1ce-edbf0782145f")
+	)
+	(fp_line
+		(start 1.25 -0.75)
+		(end 5.25 -0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d8462e51-07f6-4ba4-93e0-1446e9c40ba7")
+	)
+	(fp_line
+		(start 1.25 5.25)
+		(end 5.25 5.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "48442460-7ae2-4cf1-adfe-3c6e6aa61ad2")
+	)
+	(fp_line
+		(start 6.245 1.25)
+		(end 6.245 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8132d6bd-1f75-4c08-8360-184b05935665")
+	)
+	(fp_line
+		(start 6.245 1.25)
+		(end 6.25 3.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0453fe0c-e20e-4bb8-89d4-2b2ad19da482")
+	)
+	(fp_line
+		(start -1.77 -1.77)
+		(end 8.27 -1.77)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "83c7209c-3ae2-4a82-9d45-2685a0137e0f")
+	)
+	(fp_line
+		(start -1.77 6.27)
+		(end -1.77 -1.77)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e5e3877d-788a-4c8d-8dac-0dbc52baacc8")
+	)
+	(fp_line
+		(start 8.27 -1.77)
+		(end 8.27 6.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "764605c1-d242-4de8-b32b-a5942c9d6191")
+	)
+	(fp_line
+		(start 8.27 6.27)
+		(end -1.77 6.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d13a63bb-6550-4985-8cc3-9dac5a754a09")
+	)
+	(fp_line
+		(start 0.255 -0.745)
+		(end 6.245 -0.745)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "af28dd2e-3d26-4412-ae7c-7f5dff08e39e")
+	)
+	(fp_line
+		(start 0.255 5.245)
+		(end 0.255 -0.745)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9b9a19d0-1154-409b-8aea-9c054b876b5d")
+	)
+	(fp_line
+		(start 6.245 -0.745)
+		(end 6.245 5.245)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "493a91e7-b1ec-40d1-8faf-78eaa5a60492")
+	)
+	(fp_line
+		(start 6.245 5.245)
+		(end 0.255 5.245)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "81beda4e-5675-40cd-a750-6e4e4d256846")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 3.25 2.25 0)
+		(layer "F.Fab")
+		(uuid "3a3babdc-bf18-4300-ad14-6295e1961654")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.54 1.54)
+		(drill 0.99)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "aebda09a-f745-420b-a749-b03f422def63")
+	)
+	(pad "2" thru_hole circle
+		(at 6.5 0)
+		(size 1.54 1.54)
+		(drill 0.99)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ef48b49d-f376-4d45-8643-bdb5b619e6e4")
+	)
+	(pad "3" thru_hole circle
+		(at 0 4.5)
+		(size 1.54 1.54)
+		(drill 0.99)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "04c476b1-2b81-4a87-a440-fca51f0e470b")
+	)
+	(pad "4" thru_hole circle
+		(at 6.5 4.5)
+		(size 1.54 1.54)
+		(drill 0.99)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5f411611-d82b-4f8b-9dbe-804333fe2e1c")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_3RD_PARTY}/Imported Libraries.3dshapes/1825910-6.stp"
+		(offset
+			(xyz 3.249999951 -2.249999966 5.639999782)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+)

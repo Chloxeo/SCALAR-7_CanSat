@@ -1,0 +1,283 @@
+(footprint "ECS32712534RRTR"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "ECS-.327-12.5-34RR-TR")
+	(tags "Crystal or Oscillator")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "88f2b27f-b14a-46a5-92c0-c88e456a1de6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "ECS-.327-6-34RR-TR"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "232a1ed1-ee62-4e86-b54e-57ca5dc7902a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://ecsxtal.com/store/pdf/ECX-34RR.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "24e7087f-e593-445e-b083-45b01fbffea8")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Crystals 32.786kHz 6pF 20ppm -40C +85C"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7447ca3d-b6f3-4cb0-9d72-dd5887967f8e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Height" "0"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ee500d08-0f58-4d74-9d21-65de7e946d9b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "ECS"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3a3f103c-05c1-44ab-b881-cb5331c8ec19")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "ECS-.327-6-34RR-TR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7e4e19a7-97f9-4cdd-8a14-9ca2c37f8181")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "520-.327-6-34RRT"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3c774e12-895a-4480-9eac-82bf64c2dd05")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ECS/ECS-.327-6-34RR-TR?qs=Mv7BduZupUhhqbPNycFzzw%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b6e69a52-b71a-4d61-942c-7f5f1fa1bc13")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Part Number" "ECS-.327-6-34RR-TR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0b24b712-f514-4c8e-8e19-a22e8abb4c7e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ecs-.327-6-34rr-tr/ecs-international?region=nac"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aae1159b-71ad-4321-9722-dda2a28223a8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/MCU/")
+	(sheetfile "AEROSAT-2-MCU.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.3 -0.75)
+		(end 0.3 -0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8faff98b-6dee-4a4c-a55e-06a847a33ccf")
+	)
+	(fp_line
+		(start -0.3 0.75)
+		(end 0.3 0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cc319cf1-6573-4cf9-ac9a-7c665b8c835f")
+	)
+	(fp_line
+		(start -2.8 -1.95)
+		(end 2.8 -1.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bfce4fa5-d7d0-49ba-81f7-1ac0250bbb10")
+	)
+	(fp_line
+		(start -2.8 1.95)
+		(end -2.8 -1.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cb0ea6ea-3742-4dfa-828b-b5dd9400c178")
+	)
+	(fp_line
+		(start 2.8 -1.95)
+		(end 2.8 1.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9aca7514-5f31-42e8-9cd5-0b00a248dc1c")
+	)
+	(fp_line
+		(start 2.8 1.95)
+		(end -2.8 1.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c77fa8c6-4464-46a4-9cd4-2b8bd1adf932")
+	)
+	(fp_line
+		(start -1.6 -0.75)
+		(end 1.6 -0.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f655c4e9-3278-420d-994f-437e11a4d5f0")
+	)
+	(fp_line
+		(start -1.6 0.75)
+		(end -1.6 -0.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f3476043-a0d1-4b93-8a8c-6a14a599d4e8")
+	)
+	(fp_line
+		(start 1.6 -0.75)
+		(end 1.6 0.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b86a7122-3d6b-43ce-95e5-069f0d1886f3")
+	)
+	(fp_line
+		(start 1.6 0.75)
+		(end -1.6 0.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4e76d4a1-6460-468a-8b09-85153c7c1e1f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "9d6e75f2-93e0-46f1-bee3-64cde9f46674")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.25 0)
+		(size 1.1 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "678df9db-7cd1-408e-91dd-c36f1aca280b")
+	)
+	(pad "2" smd rect
+		(at 1.25 0)
+		(size 1.1 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8bcec885-ca06-474b-874e-aa3a33af19aa")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_3RD_PARTY}/Imported Libraries.3dshapes/ECS-.327-6-34RR-TR.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

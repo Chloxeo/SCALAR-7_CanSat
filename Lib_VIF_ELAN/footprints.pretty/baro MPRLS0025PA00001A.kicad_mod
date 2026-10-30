@@ -1,0 +1,445 @@
+(footprint "MPRLS0025PA00001A"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "MPR Series Long Port")
+	(tags "Undefined or Miscellaneous")
+	(property "Reference" "REF**"
+		(at 0 0.3 0)
+		(layer "F.SilkS")
+		(uuid "8004095f-bdbb-46da-a04c-e195fb7c310e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "MPRLS0025PA00001A"
+		(at 0 0.3 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "5f0b40d8-3fe8-4a30-97c1-1b2cdc82328e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/MPRLS0025PA00001A.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1cf23a36-347e-448c-a889-ef2d8778a020")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "HONEYWELL - MPRLS0025PA00001A - PRESSURE SENSOR, 25PSI, 1PORT, 3.3V"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7062da7a-306d-40b3-978d-059476e66520")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Height" "5"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f3aa932d-c3e6-4bdd-8d32-42227e5dcc6c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Honeywell"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a6f8deb9-f640-4651-b977-bd99d4e5142e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "MPRLS0025PA00001A"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e59e56b4-1ac2-4382-b648-07e7ce8071d9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "785-MPRLS0025PA00001"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "59b1c1c0-0b9f-448b-8e6f-0b88140b059f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Honeywell/MPRLS0025PA00001A?qs=0lQeLiL1qyYP02EvUZH3dw%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "60af6050-14de-4df1-94b0-4a2ba5a1e71d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Part Number" "MPRLS0025PA00001A"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d7e26143-169e-453b-9b15-7954d515938b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Price/Stock" "https://www.arrow.com/en/products/mprls0025pa00001a/honeywell?utm_currency=USD&region=europe"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3fa36ff5-8489-4f55-a651-6732d3fd409a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/EXPERIENCES/")
+	(sheetfile "AEROSAT-2-EXPERIENCES.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.5 -2.5)
+		(end -2.5 -1.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2f3e4a84-ad1c-4814-b05c-0b14980c5273")
+	)
+	(fp_line
+		(start -2.5 2.5)
+		(end -2.5 1.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9b0629b7-2033-44bf-bd0d-6a9f924bb332")
+	)
+	(fp_line
+		(start -1.9 -2.5)
+		(end -2.5 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "24ae55af-52d8-4ed1-870b-2b419353658d")
+	)
+	(fp_line
+		(start -1.9 2.5)
+		(end -2.5 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "048c8c13-703f-4e1b-88e3-54333f1b1691")
+	)
+	(fp_line
+		(start 1.17 3)
+		(end 1.17 3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5d5cc675-c2e4-4243-98f9-96c141ff7976")
+	)
+	(fp_line
+		(start 1.37 3)
+		(end 1.37 3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "76259610-2970-426a-80d9-59956ee75d8e")
+	)
+	(fp_line
+		(start 2.5 -2.5)
+		(end 1.9 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2e72564b-eaa9-4d85-af56-9199501d5e14")
+	)
+	(fp_line
+		(start 2.5 -1.9)
+		(end 2.5 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "43fea8c8-b06c-477a-a816-383c04f1d485")
+	)
+	(fp_line
+		(start 2.5 1.9)
+		(end 2.5 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "47692a97-46bc-4854-9885-4e41ccd71fab")
+	)
+	(fp_line
+		(start 2.5 2.5)
+		(end 1.9 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "531f1868-2e89-41a7-9e86-adb4d14db63b")
+	)
+	(fp_arc
+		(start 1.17 3)
+		(mid 1.27 2.9)
+		(end 1.37 3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "abdc997c-c809-49b8-b06c-6e5349e7cc88")
+	)
+	(fp_arc
+		(start 1.37 3)
+		(mid 1.27 3.1)
+		(end 1.17 3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5c6320de-702a-46c3-a558-099ccfbd5268")
+	)
+	(fp_line
+		(start -3.5 -3.5)
+		(end -3.5 4.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5696075e-cdac-4061-b663-9ce746550613")
+	)
+	(fp_line
+		(start -3.5 4.1)
+		(end 3.5 4.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5002193d-15cb-4854-91f2-e685338b0642")
+	)
+	(fp_line
+		(start 3.5 -3.5)
+		(end -3.5 -3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bd8a7935-1583-4046-9533-16e0420dacc1")
+	)
+	(fp_line
+		(start 3.5 4.1)
+		(end 3.5 -3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "edb478bf-b1f1-44eb-93ef-f1a0099aabca")
+	)
+	(fp_line
+		(start -2.5 -2.5)
+		(end -2.5 2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6e7bb8a1-2837-428a-8eb2-b3a6aead86dd")
+	)
+	(fp_line
+		(start -2.5 2.5)
+		(end 2.5 2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0613f2bd-215c-41ca-b6f1-eed6b9cea5b3")
+	)
+	(fp_line
+		(start 2.5 -2.5)
+		(end -2.5 -2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "df1571f4-8492-46c7-b153-c555a4c0aee5")
+	)
+	(fp_line
+		(start 2.5 2.5)
+		(end 2.5 -2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5b34e86b-7d7f-4dc7-aa8e-5a1154c49279")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0.3 0)
+		(layer "F.Fab")
+		(uuid "1080c9e8-70b9-409f-bb58-5298cc06299c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 1.27 2.1 90)
+		(size 0.65 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "cbb585bb-adb4-414c-9123-f8cf78b8c9f4")
+	)
+	(pad "2" smd rect
+		(at 0 2.1 90)
+		(size 0.65 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "06764e92-d949-442f-9411-276b6177684a")
+	)
+	(pad "3" smd rect
+		(at -1.27 2.1 90)
+		(size 0.65 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1a333474-5d90-478d-8fb8-f3161ede6504")
+	)
+	(pad "4" smd rect
+		(at -2.1 1.27)
+		(size 0.65 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "bf9282b8-3979-4ff6-9d7a-e90c8079d5c0")
+	)
+	(pad "5" smd rect
+		(at -2.1 0)
+		(size 0.65 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7e700c99-e302-42a7-bb82-991c56b0abb7")
+	)
+	(pad "6" smd rect
+		(at -2.1 -1.27)
+		(size 0.65 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7238b302-3798-45d6-824a-9b40009842a3")
+	)
+	(pad "7" smd rect
+		(at -1.27 -2.1 90)
+		(size 0.65 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7665979a-0466-4695-8e08-9fb54c1f7263")
+	)
+	(pad "8" smd rect
+		(at 0 -2.1 90)
+		(size 0.65 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "45adb868-dfcb-4814-b104-141b76758167")
+	)
+	(pad "9" smd rect
+		(at 1.27 -2.1 90)
+		(size 0.65 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2b51ff6b-f113-4a1f-b6c5-a2b4e8008025")
+	)
+	(pad "10" smd rect
+		(at 2.1 -1.27)
+		(size 0.65 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8678a9af-a8bb-4a8b-a73e-1ef7d68f4035")
+	)
+	(pad "11" smd rect
+		(at 2.1 0)
+		(size 0.65 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2f35cb09-517c-4483-9fbc-d26d654c9b89")
+	)
+	(pad "12" smd rect
+		(at 2.1 1.27)
+		(size 0.65 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c3798090-da18-4da8-8b51-87fff978e0b6")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_3RD_PARTY}/Imported Libraries.3dshapes/MPRLS0025PA00001A.stp"
+		(offset
+			(xyz 95.17999888 28.36000018 -29.2299991)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

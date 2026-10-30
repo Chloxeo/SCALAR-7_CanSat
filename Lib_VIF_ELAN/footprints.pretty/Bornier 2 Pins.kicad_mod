@@ -1,0 +1,146 @@
+(footprint "Bornier 2 Pins"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "Bornier 2 Pins"
+		(at -5.08 -5.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "56e39bbf-da05-4e45-88e3-e9679a217c3d")
+		(effects
+			(font
+				(size 0.8128 0.8128)
+				(thickness 0.1524)
+			)
+		)
+	)
+	(property "Value" "Bornier 2 Pins"
+		(at 0 -7.62 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "acc133f0-7a7d-48bb-9593-47053e71b2a7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7ecb85f5-bbeb-404d-8d42-3b5429478135")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "21b771d9-688c-4870-9579-543e813e0bd1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -10.16 -4.69)
+		(end 10.16 3.81)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "27023751-390f-4286-9dd0-9aebb733e2f3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -9.82 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7d62cecc-b176-41fb-8991-58bc51091916")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" thru_hole circle
+		(at -7.62 0)
+		(size 3.54 3.54)
+		(drill 2.54)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "41c112de-4523-43f5-b9b2-2c83d7ed35b6")
+	)
+	(pad "" thru_hole circle
+		(at 7.62 0)
+		(size 3.54 3.54)
+		(drill 2.54)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "76168b9c-3e0a-4712-89ba-680a4fa73733")
+	)
+	(pad "1" thru_hole circle
+		(at -2.54 0)
+		(size 2.54 2.54)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "34901feb-ee48-4572-8ac5-b6ae30d952dc")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 2.54 2.54)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3618d2b7-7340-4a99-b918-73cac5673ecf")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "Margin")
+		(uuid "3e45e73c-b16f-4f97-b0aa-6be49ecbda9c")
+		(name "Connecteur")
+		(hatch edge 1)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -10.16 -11.3) (xy -10.16 3.8) (xy 10.16 3.8) (xy 10.16 -11.3)
+			)
+		)
+	)
+	(embedded_fonts no)
+)
